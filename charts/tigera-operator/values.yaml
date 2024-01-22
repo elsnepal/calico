@@ -46,6 +46,9 @@ nodeSelector:
 # Custom annotations for the tigera/operator pod.
 podAnnotations: {}
 
+# Set PriorityClassName for tigera/operator pod.
+priorityClassName: ""
+
 # Custom labels for the tigera/operator pod.
 podLabels: {}
 
